@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>설문조사 양식</title>
+</head>
+<body>
+    <header>
+
+        <h1>설문조사 양식</h1>
+        <p>도전 맞춤법</p>
+    </header>
+        <hr>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>개인정보</legend>
+                    <label for="name">이름</label>
+                    <input type="text" id="name" placeholder="본명을 입력하세요">
+                    <br>
+                    <label for="email">이메일</label>
+                    <input type="email" id="email" placeholder="이메일주소 입력하세요">
+                </fieldset>
+                <fieldset>
+                    <legend>설문</legend>
+                    <p>뭐가 맞을 까요?</p>
+                    <p>하던지 말던지 / 하든지 말든지</p>
+                    <input type="radio" id="teen" name="dun">
+                    <label for="x">던 </label>
+                    <input type="radio" id="twenty" name="dun">
+                    <label for="o">든 </label>
+                    <p>그러면 안되 / 그러면 안돼</p>
+                    <input type="radio" id="teen" name="oa">
+                    <label for="x">되 </label>
+                    <input type="radio" id="twenty" name="oa">
+                    <label for="o">돼 </label>
+                    <p>왠만하면 내일 봐 / 웬만하면 내일 봐</p>
+                    <input type="radio" id="teen" name="ooan">
+                    <label for="x">왠 </label>
+                    <input type="radio" id="twenty" name="ooan">
+                    <label for="o">웬 </label>
+                    <p>늦으면 어떻해 / 늦으면 어떡해</p>
+                    <input type="radio" id="teen" name="ddeok">
+                    <label for="x">떻 </label>
+                    <input type="radio" id="twenty" name="ddeok">
+                    <label for="o">떡 </label>
+
+                   
+                </fieldset>
+                <fieldset>
+                    <legend>알고 있는 맞춤법 한 가지...</legend>
+                    <textarea row="3" cols="30" name="comment"></textarea>
+
+                </fieldset>
+                <input type="submit">
+            </form>
+            <hr>
+
+        </main>
+        <hr>
+        <footer>
+            <p>참여 해 주셔서 감사합니다.</p>        
+        </footer>
+    
+
+</body>
+</html>
